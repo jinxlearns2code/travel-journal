@@ -4,7 +4,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 export default function Body(props) {
 	return (
-		<div>
+		<div className="body-container">
 			<div className="card">
 				<img
 					src={`images/${props.imageUrl}`}

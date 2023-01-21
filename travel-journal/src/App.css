@@ -9,10 +9,10 @@ body {
   font-size: 12px;
   overflow: hidden;
   color: #2B283A;
-  width: 100vw;
+  width: 100%;
 }
 
-.App {
+.App, .body-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
