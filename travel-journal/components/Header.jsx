@@ -4,11 +4,9 @@ import { faEarthAsia } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
 	return (
-		<header>
-			<div className="header">
-				<FontAwesomeIcon icon={faEarthAsia} className="logo" />
-				<p>my travel journal.</p>
-			</div>
-		</header>
+		<div className="header">
+			<FontAwesomeIcon icon={faEarthAsia} className="logo" />
+			<p>my travel journal.</p>
+		</div>
 	)
 }
