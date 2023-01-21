@@ -6,10 +6,10 @@ export default function Body(props) {
 	return (
 		<div className="body-container">
 			<div className="card">
-				<img
-					src={`images/${props.imageUrl}`}
-					className="card--image"
-				/>
+					<img
+						src={`images/${props.imageUrl}`}
+						className="card--image"
+					/>
 				<div className="card--info">
 					<section className="section-location">
 						<FontAwesomeIcon icon={faLocationDot} className="card--location-icon" />
